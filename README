@@ -1,0 +1,11 @@
+App::NetMancer - Network management tool
+
+This is a placeholder distribution to reserve the App::NetMancer
+namespace on CPAN.
+
+INSTALLATION
+
+    perl Makefile.PL
+    make
+    make test
+    make install

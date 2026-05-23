@@ -1,0 +1,14 @@
+\b\.git\b
+\b\.svn\b
+\bCVS\b
+\b\.bzr\b
+\b_darcs\b
+~$
+\.gz$
+\.tar$
+Makefile$
+MYMETA\.
+\bpm_to_blib\b
+\bblib\b
+\b\.bak\b
+^MANIFEST\.SKIP$

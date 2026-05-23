@@ -1,0 +1,13 @@
+*.tar.gz
+/blib/
+/inc/
+/Makefile
+/Makefile.old
+/META.*
+/MYMETA.*
+/pm_to_blib
+/App-NetMancer-*/
+cover_db/
+.last_cover_stats
+nytprof.out
+/.vscode
