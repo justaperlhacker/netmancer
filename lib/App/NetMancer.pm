@@ -1,12 +1,25 @@
 package App::NetMancer;
 
-use 5.014;
 use strict;
 use warnings;
+use Carp;
 
 our $VERSION = '0.001_001';
 
+sub new {
+    my ( $class, %args ) = @_;
+
+    my $self = bless \%args, $class;
+    return $self;
+}
+
+# sub run {
+#     my ($self) = @_;
+#     confess "'not implemented'";
+# }
+
 1;
+
 
 __END__
 

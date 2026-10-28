@@ -1,0 +1,13 @@
+#!/usr/bin/env perl
+
+use strict;
+use warnings;
+use feature ':all'; # Enables all features for your Perl version (use v5.44)
+
+use FindBin;
+use lib "$FindBin::Bin/../lib";
+
+use App::NetMancer::CLI;
+
+my $nm_cli = App::NetMancer::CLI->new();
+$nm_cli->run();
